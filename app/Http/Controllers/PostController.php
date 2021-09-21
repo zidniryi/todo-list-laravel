@@ -24,6 +24,8 @@ class PostController extends Controller
     {
         $request->validate([
             'title' => 'required',
+            'nrp' => 'required',
+            'nama' => 'required',
             'content' => 'required',
         ]);
 
@@ -47,6 +49,8 @@ class PostController extends Controller
     {
         $request->validate([
             'title' => 'required',
+            'nrp' => 'required',
+            'nama' => 'required',
             'content' => 'required',
         ]);
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tutorial CRUD Laravel 8 untuk Pemula - Ilmucoding.com</title>
+    <title>Tugas Kuliah 2 : Zidni Ridwan Nulmuarif</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>

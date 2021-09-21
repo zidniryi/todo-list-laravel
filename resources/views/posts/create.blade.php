@@ -36,19 +36,19 @@
       <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>NRP:</strong>
-                <input type="text" name="nrp" class="form-control" placeholder="Title">
+                <input type="text" name="nrp" class="form-control" placeholder="NRP">
             </div>
         </div>
       <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Nama:</strong>
-                <input type="text" name="nama" class="form-control" placeholder="Title">
+                <input type="text" name="nama" class="form-control" placeholder="Nama">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Keterangan Mulai dan Kapan Selesai:</strong>
-                <textarea class="form-control" style="height:150px" name="content" placeholder="Content"></textarea>
+                <textarea class="form-control" style="height:150px" name="content" placeholder="Keterangan"></textarea>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
