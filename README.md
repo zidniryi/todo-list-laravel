@@ -28,3 +28,5 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
+### url (based on your port)
+http://127.0.0.1:8001/posts
