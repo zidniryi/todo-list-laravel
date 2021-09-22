@@ -10,6 +10,7 @@ git checkout zidni/feature
 git pull
 cp .env.example .env
 composer install
+php artisan key:generate
 php artisan serve
 
 ```
