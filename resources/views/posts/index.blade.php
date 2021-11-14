@@ -4,10 +4,10 @@
     <div class="row mt-5 mb-5">
         <div class="col-lg-12 margin-tb">
             <div class="float-left">
-                <h2>Tugas Kuliah 2 : Zidni Ridwan Nulmuarif</h2>
+                <h2>CourseCode.com</h2>
             </div>
             <div class="float-right">
-                <a class="btn btn-warning" href="{{ route('posts.create') }}"> Create Post Todo</a>
+                <a class="btn btn-warning" href="{{ route('posts.create') }}"> Create New Course</a>
             </div>
         </div>
     </div>
