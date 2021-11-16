@@ -1,6 +1,7 @@
 @extends('template')
 
 @section('content')
+<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 <div class="row mt-5 mb-5">
     <div class="col-lg-12 margin-tb">
         <div class="float-left">
@@ -29,14 +30,14 @@
      <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Task Name:</strong>
+                <strong>Judul Course</strong>
                 <input type="text" name="title" class="form-control" placeholder="Title">
             </div>
         </div>
       <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>NRP:</strong>
-                <input type="text" name="nrp" class="form-control" placeholder="NRP">
+                <strong>Kategori:</strong>
+                <input type="text" name="nrp" class="form-control" placeholder="Kategori">
             </div>
         </div>
       <div class="col-xs-12 col-sm-12 col-md-12">
@@ -47,7 +48,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Keterangan Mulai dan Kapan Selesai:</strong>
+                <strong>Kontent</strong>
                 <textarea class="form-control" style="height:150px" name="content" placeholder="Keterangan"></textarea>
             </div>
         </div>
@@ -57,4 +58,9 @@
     </div>
 
 </form>
+       <script>
+                // Replace the <textarea id="editor1"> with a CKEditor 4
+                // instance, using default configuration.
+                CKEDITOR.replace( 'content' );
+            </script>
 @endsection

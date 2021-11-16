@@ -30,14 +30,14 @@
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Task Name:</strong>
+                    <strong>Judul Course</strong>
                     <input type="text" name="title" value="{{ $post->title }}" class="form-control" placeholder="Title">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>NRP:</strong>
-                    <input type="text" name="nrp" value="{{ $post->nrp }}" class="form-control" placeholder="NRP">
+                    <strong>Kategori:</strong>
+                    <input type="text" name="nrp" value="{{ $post->nrp }}" class="form-control" placeholder="Kategori">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
@@ -48,7 +48,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Keterangan Mulai dan Kapan Selesai::</strong>
+                    <strong>Kontent:</strong>
                     <textarea id="content" class="form-control" name="content" rows="10" cols="50">{{ $post->content }}</textarea>
                 </div>
             </div>

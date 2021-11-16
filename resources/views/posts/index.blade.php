@@ -21,8 +21,8 @@
     <table class="table table-bordered">
         <tr>
             <th width="20px" class="text-center">No</th>
-            <th>Task Title</th>
-            <th>NRP</th>
+            <th>Nama Course</th>
+            <th>Kategori</th>
             <th>Nama</th>
             <th width="280px"class="text-center">Action</th>
         </tr>
